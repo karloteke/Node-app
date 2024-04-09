@@ -1,17 +1,7 @@
-# simple-nodejs-app
+# Node-app
 
-Simple-nodejs-app is a simple web application created using [Node.js](https://github.com/nodejs/node). It uses [MediaWiki - Wikipedia's Search API](https://www.mediawiki.org/wiki/API:Opensearch) to search for anything entered by the user and parses the result in a JSON format. The infobox of the Wikipedia page is parsed using [wiki-infobox-parser](https://github.com/0x333333/wiki-infobox-parser).
+Aplicación web creada usando Node.js. Utiliza MediaWiki - Wikipedia's Search API para buscar cualquier cosa introducida por el usuario y analiza el resultado en formato JSON. 
 
-## Download and Installation
+## Levantar Docker con el comando:
 
-- Clone the repo ```https://github.com/rat9615/simple-nodejs-app```
-- [Fork, Clone or Download on Github](https://github.com/rat9615/simple-nodejs-app)
-
-## Usage
-
-- After installation, run ```npm install``` to download and install all the required dependencies.
-- Run ```npm start``` to run the web application.
-
-## Live Preview
-
-To view a live preview of this application, click [here](https://desolate-coast-53201.herokuapp.com/)
+- docker run -d -p 3000:3000 carlota36/node-app:1.0
